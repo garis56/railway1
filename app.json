@@ -1,6 +1,6 @@
 {
     "name": "follow",
-    "description": "Deploy YouTube on Heroku.",
+    "description": "Deploy Website on Heroku.",
     "keywords": ["follow"],
     "env": {
         "ID": {
@@ -16,7 +16,7 @@
             "value": "/"
         }
     },
-    "website": "https://www.youtube.com/channel/UCx7oGUv3_4llCmORybfUsuw",
-    "repository": "https://github.com/mrbogel/Student",
+    "website": "https://www.youtube.com",
+    "repository": "https://github.com/jirensan3090/railway",
     "stack": "container"
 }
